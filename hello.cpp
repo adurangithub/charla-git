@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main(int argc, char* argv[]){
-  //Agregados parametros por línea de comandos
+  //Agregados parametros por línea de cmandos
   if (argc < 2){
     std::cout<<"Usage: hello Nombre"<<std::endl;
   }
