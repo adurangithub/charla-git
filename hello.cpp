@@ -1,6 +1,9 @@
 #include <iostream>
 
-int main(){
-  std::cout<<"Hello World"<<std::endl;
+int main(int argc, char* argv[]){
+  if (argc < 2){
+    std::cout<<"Usage: hello Nombre"<<std::endl;
+  }
+  std::cout<<"Hello World "<<argv[1]<<std::endl;
   return 0;
 }
